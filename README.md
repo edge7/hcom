@@ -22,6 +22,9 @@ where the file is located, i.e.:
 ```console
 foo@bar:~$ java -DinputSource=/home/edge7/Downloads/user_features.txt -jar /home/edge7/Desktop/projects/exerciseHotels.com/target/exercise-0.1.jar
 ```
+Please note that everything has been tested with the file hosted in the localfile system, but
+Spark supports different filesystem (S3, HDFS) without particular problems.
+
 ## Quick test
 ```console
 foo@bar:~$ curl http://127.0.0.1:8080/rest/users/7/averagelength
