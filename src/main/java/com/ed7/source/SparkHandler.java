@@ -7,10 +7,8 @@ import com.ed7.user.UserInfo;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
-
 import java.math.BigDecimal;
 import java.math.RoundingMode;
-
 import static org.apache.spark.sql.functions.col;
 
 
