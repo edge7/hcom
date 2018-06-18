@@ -39,6 +39,6 @@ foo@bar:~$ curl http://127.0.0.1:8080/rest/users/7/numbookings
 ## Assumptions
 Given the sample data given to me I have done the following assumptions:
 - userId is an integer such as 123. 123b is not a valid user id
-- if a given userId is not listed in the source file 0 is returned as numberOfBookings/totalValue/averageLength.
+- if a given userId is not listed in the source file, 0 is returned as numberOfBookings/totalValue/averageLength.
  (and not 404 or similar HTTP responses)
  
