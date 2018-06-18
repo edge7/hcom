@@ -5,7 +5,7 @@ import com.ed7.source.SourceHandler;
 
 public class DataHandler {
 
-    public static SourceHandler source;
+    private static SourceHandler source;
 
     public static SourceHandler getSource() {
         return source;

@@ -28,15 +28,15 @@ Spark supports different filesystem (S3, HDFS) without particular problems.
 ## Quick test
 ```console
 foo@bar:~$ curl http://127.0.0.1:8080/rest/users/7/averagelength
-           {"id":7,"currentDate":"2018-06-18T19:54:03.019+0100","averageLength":5.44}
+           {"id":7,"currentDate":"2018-06-18T10:54:03.019+0100","averageLength":5.44}
 ```
 ```console
 foo@bar:~$ curl http://127.0.0.1:8080/rest/users/7/totalvalue
-           {"id":7,"currentDate":"2018-06-18T19:56:32.042+0100","totalValue":6953}
+           {"id":7,"currentDate":"2018-06-18T10:56:32.042+0100","totalValue":6953}
 ```
 ```console
 foo@bar:~$ curl http://127.0.0.1:8080/rest/users/7/numbookings
-            {"id":7,"currentDate":"2018-06-18T19:58:34.785+0100","numberOfBookings":16}
+            {"id":7,"currentDate":"2018-06-18T10:58:34.785+0100","numberOfBookings":16}
 ```
 
 ## Assumptions
